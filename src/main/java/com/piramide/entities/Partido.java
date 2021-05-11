@@ -3,8 +3,10 @@ package com.piramide.entities;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
+import java.io.Serializable;
+
 @DatabaseTable(tableName = "partidos")
-public class Partido {
+public class Partido implements Serializable {
 
     @DatabaseField(id = true)
     private String codigo;
