@@ -1,4 +1,4 @@
-package com.piramide.dao;
+package com.piramide.dao.Serializable;
 
 import java.io.*;
 

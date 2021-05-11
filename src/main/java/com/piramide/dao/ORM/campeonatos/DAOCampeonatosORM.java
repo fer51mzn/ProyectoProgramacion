@@ -73,5 +73,4 @@ public class DAOCampeonatosORM implements DAOCampeonatos{
             throwables.printStackTrace();
         }
     }
-
 }

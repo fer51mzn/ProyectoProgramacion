@@ -15,8 +15,6 @@ public class Campeonato {
     @DatabaseField
     private String fecha;
 
-    public void iniciar(){};
-
     public Campeonato() {
     }
 
