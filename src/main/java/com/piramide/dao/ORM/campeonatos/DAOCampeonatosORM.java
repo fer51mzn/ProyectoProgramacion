@@ -12,6 +12,7 @@ public class DAOCampeonatosORM implements DAOCampeonatos{
 
     Dao<Campeonato, String> daoCampeonatosORM;
 
+
     public DAOCampeonatosORM() throws SQLException {
         this.daoCampeonatosORM = DaoManager.createDao(
                 DBConnectionORM.getInstance(),
